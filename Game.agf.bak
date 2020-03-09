@@ -820,7 +820,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>1</ZOrder>
+              <ZOrder>6</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -907,7 +907,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
+              <ZOrder>2</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -1123,7 +1123,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
+              <ZOrder>6</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -1274,7 +1274,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
+              <ZOrder>6</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -1383,7 +1383,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
+              <ZOrder>6</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>65535</BackgroundColor>
@@ -1632,41 +1632,452 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>30</Height>
-              <Width>20</Width>
+              <Height>35</Height>
+              <Width>25</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
+              <ZOrder>1</ZOrder>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
               <ID>9</ID>
-              <Name>gCard</Name>
+              <Name>gCard0</Name>
             </NormalGUI>
             <Controls>
               <GUILabel>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>65535</TextColor>
+                <TextColor>0</TextColor>
                 <Font>3</Font>
                 <Text>0</Text>
                 <Height>9</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
                 <Left>2</Left>
-                <Top>11</Top>
+                <Top>17</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>lblNum</Name>
+                <Name>lblNum0</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUILabel>
             </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>1</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>10</ID>
+              <Name>gCard1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum1</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>1</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>11</ID>
+              <Name>gCard2</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>1</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>12</ID>
+              <Name>gCard3</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum3</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>13</ID>
+              <Name>gCard4</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>14</ID>
+              <Name>gCard5</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum5</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>15</ID>
+              <Name>gCard6</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum6</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>16</ID>
+              <Name>gCard7</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum7</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>17</ID>
+              <Name>gCard8</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>16</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum8</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>18</ID>
+              <Name>gCard9</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>0</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>16</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblNum9</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>95</Left>
+              <Top>100</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>10</BackgroundImage>
+              <ID>19</ID>
+              <Name>gTopcard</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text />
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>2</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblTopcard</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>17</Height>
+              <Width>17</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>10</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2060</BackgroundImage>
+              <ID>20</ID>
+              <Name>gPlay</Name>
+            </NormalGUI>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -2366,7 +2777,7 @@
         <GlobalVariable>
           <Name>curr_level</Name>
           <Type>int</Type>
-          <DefaultValue>1</DefaultValue>
+          <DefaultValue>10</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>max_level</Name>
@@ -3195,6 +3606,26 @@
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="Cards">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="10" Width="30" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Cards/playingcard_blue.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>40</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites />
           </SpriteFolder>
@@ -3473,7 +3904,7 @@
               </Sprite>
             </Sprites>
           </SpriteFolder>
-          <SpriteFolder Name="Cards">
+          <SpriteFolder Name="About">
             <SubFolders />
             <Sprites>
               <Sprite Slot="3003" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -3488,81 +3919,6 @@
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="1" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/Cards/playingcard_blue_1.jpg</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>38</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/Cards/playingcard_blue_2.jpg</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>38</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="3" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/Cards/playingcard_blue_3.jpg</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>38</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="4" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/Cards/playingcard_blue_4.jpg</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>38</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="5" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/Cards/playingcard_blue_5.jpg</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>38</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
