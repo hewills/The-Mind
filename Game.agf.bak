@@ -1383,7 +1383,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>6</ZOrder>
+              <ZOrder>50</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>65535</BackgroundColor>
@@ -1640,7 +1640,7 @@
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>1</ZOrder>
+              <ZOrder>0</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -2061,23 +2061,48 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>16</Height>
-              <Width>17</Width>
-              <Left>0</Left>
-              <Top>137</Top>
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>6</Left>
+              <Top>150</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
-              <PopupStyle>Normal</PopupStyle>
+              <PopupStyle>Persistent</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>10</ZOrder>
+              <ZOrder>15</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2060</BackgroundImage>
+              <BackgroundImage>0</BackgroundImage>
               <ID>20</ID>
               <Name>gPlay</Name>
             </NormalGUI>
-            <Controls />
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>8</PushedImage>
+                <MouseoverImage>11</MouseoverImage>
+                <Image>11</Image>
+                <Text />
+                <Height>35</Height>
+                <Locked>False</Locked>
+                <Width>25</Width>
+                <Left>0</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>bPlay</Name>
+                <Clickable>True</Clickable>
+                <Enabled>False</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+            </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
@@ -3789,6 +3814,36 @@
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="9" Width="25" Height="35" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>Images/Cards/overlay.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>35</ImportHeight>
+                      <ImportWidth>25</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="11" Width="25" Height="35" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Cards/overlay.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>35</ImportHeight>
+                      <ImportWidth>25</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
