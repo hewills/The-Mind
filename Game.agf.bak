@@ -1653,7 +1653,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>27</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1692,7 +1692,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1731,7 +1731,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1770,7 +1770,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1809,7 +1809,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1848,7 +1848,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1887,7 +1887,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1926,7 +1926,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -1965,7 +1965,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -2004,7 +2004,7 @@
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text>0</Text>
+                <Text />
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
@@ -2073,7 +2073,7 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>12</BackgroundImage>
               <ID>20</ID>
               <Name>gPlay</Name>
             </NormalGUI>
@@ -2086,15 +2086,15 @@
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>8</PushedImage>
-                <MouseoverImage>11</MouseoverImage>
-                <Image>11</Image>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
                 <Text />
                 <Height>35</Height>
                 <Locked>False</Locked>
                 <Width>25</Width>
                 <Left>0</Left>
-                <Top>0</Top>
+                <Top>1</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>bPlay</Name>
@@ -2874,7 +2874,7 @@
         <GlobalVariable>
           <Name>curr_level</Name>
           <Type>int</Type>
-          <DefaultValue>10</DefaultValue>
+          <DefaultValue>1</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>max_level</Name>
@@ -3839,6 +3839,21 @@
                       <OffsetY>0</OffsetY>
                       <ImportHeight>35</ImportHeight>
                       <ImportWidth>25</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="12" Width="16" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Cards/arrow.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
