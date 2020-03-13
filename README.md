@@ -1,6 +1,6 @@
 # The Mind
 MAGS game - March 2020
-
+-------------------------------
 MAGS is a monthly game making competition, using the Adventure Game Studios tool. This month's theme is 'Death defying'.
 I admit this is a bit of a stretch, theme-wise, but it technically fits.
 
