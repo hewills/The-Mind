@@ -2,6 +2,9 @@
 MAGS game - March 2020
 -------------------------------
 MAGS is a monthly game making competition, using the Adventure Game Studios tool. This month's theme is 'Death defying'.
+
+https://www.adventuregamestudio.co.uk/forums/index.php?topic=57827.0
+
 I admit this is a bit of a stretch, theme-wise, but it technically fits.
 
 This is a videogame version of the card game 'The Mind'. It is a cooperative game, you play with others.

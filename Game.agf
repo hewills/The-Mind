@@ -2024,7 +2024,7 @@
               <OnClick />
               <Height>35</Height>
               <Width>25</Width>
-              <Left>95</Left>
+              <Left>125</Left>
               <Top>100</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
@@ -2047,8 +2047,8 @@
                 <Height>8</Height>
                 <Locked>False</Locked>
                 <Width>19</Width>
-                <Left>2</Left>
-                <Top>16</Top>
+                <Left>4</Left>
+                <Top>10</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblTopcard</Name>
@@ -2124,6 +2124,45 @@
               <Name>gDogCards</Name>
             </NormalGUI>
             <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>gLevel_OnClick</OnClick>
+              <Height>178</Height>
+              <Width>116</Width>
+              <Left>100</Left>
+              <Top>10</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>4</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2</BackgroundImage>
+              <ID>22</ID>
+              <Name>gLevel</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>65504</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">LEVEL 5</Text>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>62</Width>
+                <Left>24</Left>
+                <Top>22</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblLevel</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -3787,13 +3826,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2" Width="25" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2" Width="114" Height="179" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Images/Cards/cardlevel_sml.png</FileName>
+                      <FileName>Images/Cards/level.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>25</ImportWidth>
+                      <ImportHeight>179</ImportHeight>
+                      <ImportWidth>114</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
