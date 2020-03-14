@@ -4,3 +4,6 @@
 // scripts.
 
 //import function return_click_play(String cardtype);
+
+#define Dog_Delay 1
+#define Force_Dog_Delay 2
