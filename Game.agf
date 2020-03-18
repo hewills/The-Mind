@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">The Mind</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>1</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -677,6 +677,10 @@
             <Number>99</Number>
             <Description>Splash</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>3</Number>
+            <Description>Credits</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -726,7 +730,7 @@
           <GUIMain>
             <NormalGUI>
               <OnClick>gInventoryBar_OnClick</OnClick>
-              <Height>30</Height>
+              <Height>20</Height>
               <Width>320</Width>
               <Left>0</Left>
               <Top>0</Top>
@@ -758,7 +762,7 @@
                 <Height>12</Height>
                 <Locked>False</Locked>
                 <Width>14</Width>
-                <Left>291</Left>
+                <Left>294</Left>
                 <Top>1</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -767,22 +771,6 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
-              <GUIInventory>
-                <ItemWidth>30</ItemWidth>
-                <ItemHeight>20</ItemHeight>
-                <CharacterID>-1</CharacterID>
-                <Height>25</Height>
-                <Locked>False</Locked>
-                <Width>218</Width>
-                <Left>18</Left>
-                <Top>1</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>invCustom</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIInventory>
               <GUIButton>
                 <OnClick>bOptions_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
@@ -798,10 +786,10 @@
                 <Height>17</Height>
                 <Locked>False</Locked>
                 <Width>17</Width>
-                <Left>266</Left>
+                <Left>267</Left>
                 <Top>1</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
                 <Name>bOptions</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -2159,6 +2147,93 @@
                 <ID>0</ID>
                 <Name>lblLevel</Name>
                 <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>65</Height>
+              <Width>205</Width>
+              <Left>58</Left>
+              <Top>67</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>PopupModal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>3056</BackgroundImage>
+              <ID>23</ID>
+              <Name>gReplay</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>16904</TextColor>
+                <Font>0</Font>
+                <PushedImage>3058</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>3057</Image>
+                <Text>Replay</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>70</Width>
+                <Left>123</Left>
+                <Top>36</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>bReplay</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>16904</TextColor>
+                <Font>0</Font>
+                <PushedImage>3058</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>3057</Image>
+                <Text>Quit</Text>
+                <Height>18</Height>
+                <Locked>False</Locked>
+                <Width>70</Width>
+                <Left>10</Left>
+                <Top>36</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>bQuit</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Replay Game?</Text>
+                <Height>22</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>24</Left>
+                <Top>5</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>lblReplay</Name>
+                <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUILabel>
@@ -4766,6 +4841,19 @@
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2020-03-11 00:33:40Z</FileLastModifiedDate>
               </AudioClip>
+              <AudioClip>
+                <ScriptName>aMainnew</ScriptName>
+                <ID>1</ID>
+                <SourceFileName>Music/mainnew.mp3</SourceFileName>
+                <Index>2</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 00:42:27Z</FileLastModifiedDate>
+              </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
@@ -4777,7 +4865,60 @@
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aBad_move</ScriptName>
+                <ID>2</ID>
+                <SourceFileName xml:space="preserve">Sounds/bad move.mp3</SourceFileName>
+                <Index>3</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 00:41:39Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aGood_move</ScriptName>
+                <ID>3</ID>
+                <SourceFileName xml:space="preserve">Sounds/good move.mp3</SourceFileName>
+                <Index>4</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 00:44:26Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aGood_move2</ScriptName>
+                <ID>4</ID>
+                <SourceFileName xml:space="preserve">Sounds/good move2.mp3</SourceFileName>
+                <Index>5</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 00:44:26Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aHarp</ScriptName>
+                <ID>5</ID>
+                <SourceFileName>Sounds/476713__ddmyzik__happy-harp-sound.wav</SourceFileName>
+                <Index>6</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 01:07:50Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
