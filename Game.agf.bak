@@ -2506,8 +2506,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>4</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>30</StartX>
-            <StartY>135</StartY>
+            <StartX>33</StartX>
+            <StartY>149</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -3726,6 +3726,21 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="21" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Player/Players.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>104</ImportHeight>
+                      <ImportWidth>110</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Dog">
@@ -3758,6 +3773,21 @@
                       <OffsetY>0</OffsetY>
                       <ImportHeight>94</ImportHeight>
                       <ImportWidth>50</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="22" Width="31" Height="108" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Death/deathguy.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>108</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -4465,7 +4495,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>7</Image>
+                    <Image>21</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -4478,7 +4508,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>7</Image>
+                    <Image>21</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4491,7 +4521,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>7</Image>
+                    <Image>21</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4641,71 +4671,113 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>4</Image>
+                    <Image>22</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>4</Image>
+                    <Image>22</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>4</Image>
-                    <Flipped>True</Flipped>
+                    <Image>22</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>4</Image>
-                    <Flipped>False</Flipped>
+                    <Image>22</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>4</Image>
-                    <Flipped>False</Flipped>
+                    <Image>22</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>4</Image>
-                    <Flipped>False</Flipped>
+                    <Image>22</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>4</Image>
+                    <Image>22</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>4</Image>
-                    <Flipped>True</Flipped>
+                    <Image>22</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
-                    <Image>4</Image>
+                    <Image>22</Image>
                     <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
-                    <Image>4</Image>
+                    <Image>22</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>22</Image>
                     <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>22</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>22</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>22</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>14</ID>
+                    <Image>22</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>15</ID>
+                    <Image>22</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
