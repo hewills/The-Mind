@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">The Mind</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>6</AudioIndexer>
+      <AudioIndexer>21</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -895,7 +895,7 @@
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>2</ZOrder>
+              <ZOrder>5</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -1667,7 +1667,7 @@
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>1</ZOrder>
+              <ZOrder>2</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
@@ -2115,14 +2115,14 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gLevel_OnClick</OnClick>
+              <OnClick />
               <Height>178</Height>
               <Width>116</Width>
               <Left>100</Left>
               <Top>10</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
-              <PopupStyle>Normal</PopupStyle>
+              <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ZOrder>4</ZOrder>
               <BorderColor>0</BorderColor>
@@ -2142,7 +2142,7 @@
                 <Locked>False</Locked>
                 <Width>62</Width>
                 <Left>24</Left>
-                <Top>22</Top>
+                <Top>21</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblLevel</Name>
@@ -2150,6 +2150,30 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUILabel>
+              <GUIButton>
+                <OnClick>bLevel_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>2161</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2160</Image>
+                <Text>OK</Text>
+                <Height>19</Height>
+                <Locked>False</Locked>
+                <Width>71</Width>
+                <Left>24</Left>
+                <Top>150</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>bLevel</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2233,6 +2257,84 @@
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>lblReplay</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>100</Left>
+              <Top>20</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>2</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>1</BackgroundImage>
+              <ID>24</ID>
+              <Name>gDiscardCard1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>1</Font>
+                <Text />
+                <Height>8</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>4</Left>
+                <Top>10</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblDiscard1</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>35</Height>
+              <Width>25</Width>
+              <Left>145</Left>
+              <Top>20</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>2</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>1</BackgroundImage>
+              <ID>25</ID>
+              <Name>gDiscardCard2</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>1</Font>
+                <Text />
+                <Height>8</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>4</Left>
+                <Top>10</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblDiscard2</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
@@ -2434,7 +2536,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>65504</SpeechColor>
+            <SpeechColor>2016</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2466,8 +2568,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>-1</StartingRoom>
-            <StartX>242</StartX>
-            <StartY>140</StartY>
+            <StartX>264</StartX>
+            <StartY>100</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2514,7 +2616,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>65504</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2994,6 +3096,21 @@
           <Name>max_level</Name>
           <Type>int</Type>
           <DefaultValue>10</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>extralives</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>specialpowers</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>ticks</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -3744,7 +3861,208 @@
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Dog">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="Whine">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="25" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Whine/Players_whine_whine_0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="26" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Whine/Players_whine_whine_1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Bark">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="23" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Bark/Players_bark_Bark_0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="24" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Bark/Players_bark_Bark_1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Wag1">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="27" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag1/Players_wag1_Wag1_0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="28" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag1/Players_wag1_Wag1_1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="29" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag1/Players_wag1_Wag1_2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="30" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag1/Players_wag1_Wag1_3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Wag2">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="31" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag2/Players_wag1_Wag2_0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="32" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag2/Players_wag1_Wag2_1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="33" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag2/Players_wag1_Wag2_2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="34" Width="110" Height="104" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Images/Characters/Player/Wag2/Players_wag1_Wag2_3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>104</ImportHeight>
+                          <ImportWidth>110</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="3600" Width="81" Height="110" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -4545,7 +4863,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>3600</Image>
+                    <Image>8</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4558,7 +4876,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>3600</Image>
+                    <Image>8</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4571,7 +4889,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>3600</Image>
+                    <Image>8</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4584,7 +4902,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>3600</Image>
+                    <Image>8</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4789,7 +5107,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>8</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4802,7 +5120,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>8</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4827,6 +5145,339 @@
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>8</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>6</ID>
+            <Name>vBark</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>23</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>23</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>24</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>24</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>23</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>23</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>7</ID>
+            <Name>vWhine1</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>26</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>26</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>26</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>8</ID>
+            <Name>vWhine2</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>27</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>28</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>29</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>30</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>9</ID>
+            <Name>vWhine3</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>31</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>32</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>26</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>25</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>26</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>31</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>33</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>34</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>vWhine4</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>30</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>33</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>32</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>31</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>31</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>32</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>32</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>33</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>33</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>34</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -4901,21 +5552,8 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aMain_theme_fade</ScriptName>
-                <ID>0</ID>
-                <SourceFileName xml:space="preserve">Music/main theme fade.mp3</SourceFileName>
-                <Index>1</Index>
-                <Type>2</Type>
-                <BundlingType>InSeparateVOX</BundlingType>
-                <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2020-03-11 00:33:40Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
                 <ScriptName>aMainnew</ScriptName>
-                <ID>1</ID>
+                <ID>0</ID>
                 <SourceFileName>Music/mainnew.mp3</SourceFileName>
                 <Index>2</Index>
                 <Type>2</Type>
@@ -4928,8 +5566,8 @@
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
-              <DefaultVolume>100</DefaultVolume>
-              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultVolume>30</DefaultVolume>
+              <DefaultPriority>Normal</DefaultPriority>
               <DefaultRepeat>True</DefaultRepeat>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
               <DefaultType>2</DefaultType>
@@ -4940,7 +5578,7 @@
             <AudioClips>
               <AudioClip>
                 <ScriptName>aBad_move</ScriptName>
-                <ID>2</ID>
+                <ID>1</ID>
                 <SourceFileName xml:space="preserve">Sounds/bad move.mp3</SourceFileName>
                 <Index>3</Index>
                 <Type>3</Type>
@@ -4953,7 +5591,7 @@
               </AudioClip>
               <AudioClip>
                 <ScriptName>aGood_move</ScriptName>
-                <ID>3</ID>
+                <ID>2</ID>
                 <SourceFileName xml:space="preserve">Sounds/good move.mp3</SourceFileName>
                 <Index>4</Index>
                 <Type>3</Type>
@@ -4966,7 +5604,7 @@
               </AudioClip>
               <AudioClip>
                 <ScriptName>aGood_move2</ScriptName>
-                <ID>4</ID>
+                <ID>3</ID>
                 <SourceFileName xml:space="preserve">Sounds/good move2.mp3</SourceFileName>
                 <Index>5</Index>
                 <Type>3</Type>
@@ -4979,7 +5617,7 @@
               </AudioClip>
               <AudioClip>
                 <ScriptName>aHarp</ScriptName>
-                <ID>5</ID>
+                <ID>4</ID>
                 <SourceFileName>Sounds/476713__ddmyzik__happy-harp-sound.wav</SourceFileName>
                 <Index>6</Index>
                 <Type>3</Type>
@@ -4990,10 +5628,140 @@
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2020-03-18 01:07:50Z</FileLastModifiedDate>
               </AudioClip>
+              <AudioClip>
+                <ScriptName>evillaugh</ScriptName>
+                <ID>5</ID>
+                <SourceFileName>Sounds/98382__the-baron__17-evil-laugh.wav</SourceFileName>
+                <Index>8</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 01:04:22Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>shuffle</ScriptName>
+                <ID>6</ID>
+                <SourceFileName>Sounds/201253__empraetorius__card-shuffle.wav</SourceFileName>
+                <Index>10</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-18 01:04:43Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aBark</ScriptName>
+                <ID>7</ID>
+                <SourceFileName>Sounds/bark.ogg</SourceFileName>
+                <Index>12</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>VeryHigh</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:58:03Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine1</ScriptName>
+                <ID>8</ID>
+                <SourceFileName>Sounds/whine1.ogg</SourceFileName>
+                <Index>13</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:45:49Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine2</ScriptName>
+                <ID>9</ID>
+                <SourceFileName>Sounds/whine2.ogg</SourceFileName>
+                <Index>14</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:46:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine3</ScriptName>
+                <ID>10</ID>
+                <SourceFileName>Sounds/whine3.ogg</SourceFileName>
+                <Index>15</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:47:00Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine4</ScriptName>
+                <ID>11</ID>
+                <SourceFileName>Sounds/whine4.ogg</SourceFileName>
+                <Index>16</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:47:33Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine5</ScriptName>
+                <ID>12</ID>
+                <SourceFileName>Sounds/whine5.ogg</SourceFileName>
+                <Index>17</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:48:00Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine7</ScriptName>
+                <ID>13</ID>
+                <SourceFileName>Sounds/whine7.ogg</SourceFileName>
+                <Index>19</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:49:32Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWhine8</ScriptName>
+                <ID>14</ID>
+                <SourceFileName>Sounds/whine8.ogg</SourceFileName>
+                <Index>20</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2020-03-22 23:50:05Z</FileLastModifiedDate>
+              </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
-              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultPriority>High</DefaultPriority>
               <DefaultRepeat>False</DefaultRepeat>
               <DefaultBundlingType>InGameEXE</DefaultBundlingType>
               <DefaultType>3</DefaultType>
