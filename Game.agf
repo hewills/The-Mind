@@ -679,7 +679,11 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>3</Number>
-            <Description>Credits</Description>
+            <Description>Intro</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>4</Number>
+            <Description IsNull="True" />
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -783,9 +787,9 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>300</Image>
                 <Text />
-                <Height>17</Height>
+                <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>17</Width>
+                <Width>16</Width>
                 <Left>267</Left>
                 <Top>1</Top>
                 <ZOrder>1</ZOrder>
@@ -905,54 +909,6 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>btnSave_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>56</TextColor>
-                <Font>0</Font>
-                <PushedImage>3061</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>3060</Image>
-                <Text>Save</Text>
-                <Height>17</Height>
-                <Locked>False</Locked>
-                <Width>73</Width>
-                <Left>7</Left>
-                <Top>11</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>btnSave</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnLoad_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>56</TextColor>
-                <Font>0</Font>
-                <PushedImage>3061</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>3060</Image>
-                <Text>Load</Text>
-                <Height>20</Height>
-                <Locked>False</Locked>
-                <Width>73</Width>
-                <Left>7</Left>
-                <Top>37</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>btnLoad</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
                 <OnClick>btnResume_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
@@ -968,9 +924,9 @@
                 <Locked>False</Locked>
                 <Width>73</Width>
                 <Left>7</Left>
-                <Top>65</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
                 <Name>btnResume</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -992,9 +948,9 @@
                 <Locked>False</Locked>
                 <Width>73</Width>
                 <Left>7</Left>
-                <Top>127</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
+                <Top>124</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
                 <Name>btnQuit2</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1013,8 +969,8 @@
                 <Width>100</Width>
                 <Left>127</Left>
                 <Top>37</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
                 <Name>sldAudio</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1033,8 +989,8 @@
                 <Width>100</Width>
                 <Left>127</Left>
                 <Top>110</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
                 <Name>sldSpeed</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1050,8 +1006,8 @@
                 <Width>106</Width>
                 <Left>127</Left>
                 <Top>17</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
                 <Name>Label1</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1067,8 +1023,8 @@
                 <Width>101</Width>
                 <Left>127</Left>
                 <Top>86</Top>
-                <ZOrder>7</ZOrder>
-                <ID>7</ID>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
                 <Name>Label2</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1090,9 +1046,9 @@
                 <Locked>False</Locked>
                 <Width>73</Width>
                 <Left>7</Left>
-                <Top>92</Top>
-                <ZOrder>8</ZOrder>
-                <ID>8</ID>
+                <Top>86</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
                 <Name>bAbout</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -1533,7 +1489,7 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>200</Height>
+              <Height>50</Height>
               <Width>320</Width>
               <Left>0</Left>
               <Top>0</Top>
@@ -1545,7 +1501,7 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>69</BackgroundImage>
+              <BackgroundImage>0</BackgroundImage>
               <ID>8</ID>
               <Name>gStart</Name>
             </NormalGUI>
@@ -1555,11 +1511,11 @@
                 <TextColor>0</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">THE MIND</Text>
-                <Height>25</Height>
+                <Height>15</Height>
                 <Locked>False</Locked>
-                <Width>168</Width>
-                <Left>117</Left>
-                <Top>50</Top>
+                <Width>77</Width>
+                <Left>172</Left>
+                <Top>19</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label10</Name>
@@ -1579,11 +1535,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Start</Text>
-                <Height>26</Height>
+                <Height>25</Height>
                 <Locked>False</Locked>
-                <Width>51</Width>
-                <Left>50</Left>
-                <Top>147</Top>
+                <Width>48</Width>
+                <Left>34</Left>
+                <Top>14</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnStartGame</Name>
@@ -1606,8 +1562,8 @@
                 <Height>25</Height>
                 <Locked>False</Locked>
                 <Width>48</Width>
-                <Left>137</Left>
-                <Top>147</Top>
+                <Left>102</Left>
+                <Top>14</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnStartQuit</Name>
@@ -2538,7 +2494,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>2016</SpeechColor>
             <Solid>True</Solid>
-            <Clickable>True</Clickable>
+            <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2578,7 +2534,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>1560</SpeechColor>
             <Solid>True</Solid>
-            <Clickable>True</Clickable>
+            <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2609,7 +2565,7 @@
             <BlinkingView>4</BlinkingView>
             <StartingRoom>2</StartingRoom>
             <StartX>33</StartX>
-            <StartY>149</StartY>
+            <StartY>139</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2618,7 +2574,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>65504</SpeechColor>
             <Solid>True</Solid>
-            <Clickable>True</Clickable>
+            <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2654,7 +2610,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2666,7 +2622,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2678,7 +2634,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2690,7 +2646,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2702,7 +2658,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2714,7 +2670,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2726,7 +2682,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2061</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2738,7 +2694,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2055</Image>
+        <Image>55</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2750,7 +2706,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>54</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -3095,7 +3051,7 @@
         <GlobalVariable>
           <Name>max_level</Name>
           <Type>int</Type>
-          <DefaultValue>10</DefaultValue>
+          <DefaultValue>4</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>extralives</Name>
@@ -3262,21 +3218,6 @@
               <SpriteFolder Name="Cursors">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2054" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\walk.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>24</ImportHeight>
-                      <ImportWidth>27</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
                   <Sprite Slot="2055" Width="14" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\wait.png</FileName>
@@ -3284,51 +3225,6 @@
                       <OffsetY>0</OffsetY>
                       <ImportHeight>22</ImportHeight>
                       <ImportWidth>14</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2056" Width="26" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\examine.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>26</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2057" Width="19" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\interact.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>28</ImportHeight>
-                      <ImportWidth>19</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>False</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2058" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                    <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\talk.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>28</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3382,444 +3278,13 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                </Sprites>
-              </SpriteFolder>
-            </SubFolders>
-            <Sprites>
-              <Sprite Slot="2000" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0000.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2001" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0000.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2002" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0001.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2003" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0002.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2004" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0003.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2005" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0004.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2006" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0005.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2010" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0006.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2011" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0002.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2012" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0003.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2013" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0004.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2014" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0005.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2015" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0000.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2016" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0001.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2020" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0002.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2021" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0002.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2022" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0003.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2023" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0004.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2024" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0005.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2025" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0000.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2026" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0001.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2030" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0004.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>False</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2031" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0000.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2032" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0001.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2033" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0002.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2034" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0003.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2035" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0004.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2036" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0005.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>50</ImportHeight>
-                  <ImportWidth>25</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-            </Sprites>
-          </SpriteFolder>
-          <SpriteFolder Name="Characters">
-            <SubFolders>
-              <SpriteFolder Name="Player">
-                <SubFolders />
-                <Sprites>
-                  <Sprite Slot="7" Width="83" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="54" Width="10" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Images/Characters/Player/player_and_dog.png</FileName>
+                      <FileName>Images/GUI/cursor.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>60</ImportHeight>
-                      <ImportWidth>83</ImportWidth>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>10</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3828,6 +3293,31 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="55" Width="9" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>Images/GUI/timer.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>9</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
+            <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="Characters">
+            <SubFolders>
+              <SpriteFolder Name="Player">
+                <SubFolders />
+                <Sprites>
                   <Sprite Slot="8" Width="3" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Images/dummy.png</FileName>
@@ -4063,42 +3553,11 @@
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
-                <Sprites>
-                  <Sprite Slot="3600" Width="81" Height="110" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Images/Characters/Dog/dog.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>110</ImportHeight>
-                      <ImportWidth>81</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>TopLeft</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                </Sprites>
+                <Sprites />
               </SpriteFolder>
               <SpriteFolder Name="Death">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="4" Width="50" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Images/Characters/Death/death.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>94</ImportHeight>
-                      <ImportWidth>50</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>TopLeft</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
                   <Sprite Slot="22" Width="31" Height="108" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Images/Characters/Death/deathguy.png</FileName>
@@ -4447,7 +3906,23 @@
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
-            <Sprites />
+            <Sprites>
+              <Sprite Slot="49" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="gControlPanelImport">
             <SubFolders />
@@ -4745,39 +4220,439 @@
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Objects">
-            <SubFolders />
-            <Sprites>
-              <Sprite Slot="5" Width="10" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/GUI/extralife.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>13</ImportHeight>
-                  <ImportWidth>10</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="6" Width="10" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>Images/GUI/specialpower.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>13</ImportHeight>
-                  <ImportWidth>10</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-            </Sprites>
+            <SubFolders>
+              <SpriteFolder Name="fire">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="36" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="37" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>24</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="38" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>48</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="39" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>72</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="40" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>96</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="41" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>120</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="42" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/ARW 2D Flame Sprite Sheet .png</FileName>
+                      <OffsetX>144</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="hearts">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="35" Width="13" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/heart.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>13</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="coins">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="43" Width="9" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/spin_coin_big_strip6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>10</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="44" Width="9" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/spin_coin_big_strip6.png</FileName>
+                      <OffsetX>9</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>10</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="45" Width="9" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/spin_coin_big_strip6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>10</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="46" Width="9" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/spin_coin_big_strip6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>10</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="47" Width="9" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/spin_coin_big_strip6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>10</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="48" Width="9" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/spin_coin_big_strip6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>10</ImportHeight>
+                      <ImportWidth>9</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="smokefire">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="4" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="5" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>16</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="6" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>32</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="7" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>48</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="50" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>32</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="51" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>16</OffsetX>
+                      <OffsetY>32</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="52" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>32</OffsetX>
+                      <OffsetY>32</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="53" Width="16" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Background/SmokeFire.png</FileName>
+                      <OffsetX>48</OffsetX>
+                      <OffsetY>32</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="skydive">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="56" Width="22" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Player/skydive_parachute_0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="57" Width="22" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Player/skydive_parachute_1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="58" Width="22" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Player/skydive_parachute_2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="59" Width="22" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Player/skydive_parachute_3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="60" Width="22" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Images/Characters/Player/skydive_parachute_4.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
+            <Sprites />
           </SpriteFolder>
         </SubFolders>
         <Sprites>
@@ -4994,111 +4869,6 @@
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
                   </ViewFrame>
-                  <ViewFrame>
-                    <ID>1</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>2</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>3</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>4</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>5</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>6</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>10</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>11</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>12</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>13</ID>
-                    <Image>22</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>14</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>15</ID>
-                    <Image>22</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>-1</Sound>
-                  </ViewFrame>
                 </Frames>
               </Loop>
               <Loop>
@@ -5107,7 +4877,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>8</Image>
+                    <Image>0</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -5120,7 +4890,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>8</Image>
+                    <Image>0</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>-1</Sound>
@@ -5486,6 +5256,308 @@
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>11</ID>
+            <Name>vCoin</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>43</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>44</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>45</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>46</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>47</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>48</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>12</ID>
+            <Name>vFire</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>36</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>37</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>38</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>39</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>40</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>40</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>37</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>13</ID>
+            <Name>vSmoke</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>7</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>6</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>5</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>4</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>14</ID>
+            <Name>vLava</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>53</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>52</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>51</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>50</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>50</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>53</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>52</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>51</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>50</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>15</ID>
+            <Name>vSkydive</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>56</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>57</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>58</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>59</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>60</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>-1</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -5552,9 +5624,9 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aMainnew</ScriptName>
                 <ID>0</ID>
                 <SourceFileName>Music/mainnew.mp3</SourceFileName>
+                <ScriptName>aMainnew</ScriptName>
                 <Index>2</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -5577,9 +5649,9 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aBad_move</ScriptName>
                 <ID>1</ID>
                 <SourceFileName xml:space="preserve">Sounds/bad move.mp3</SourceFileName>
+                <ScriptName>aBad_move</ScriptName>
                 <Index>3</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5590,9 +5662,9 @@
                 <FileLastModifiedDate>2020-03-18 00:41:39Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aGood_move</ScriptName>
                 <ID>2</ID>
                 <SourceFileName xml:space="preserve">Sounds/good move.mp3</SourceFileName>
+                <ScriptName>aGood_move</ScriptName>
                 <Index>4</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5603,9 +5675,9 @@
                 <FileLastModifiedDate>2020-03-18 00:44:26Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aGood_move2</ScriptName>
                 <ID>3</ID>
                 <SourceFileName xml:space="preserve">Sounds/good move2.mp3</SourceFileName>
+                <ScriptName>aGood_move2</ScriptName>
                 <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5616,9 +5688,9 @@
                 <FileLastModifiedDate>2020-03-18 00:44:26Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aHarp</ScriptName>
                 <ID>4</ID>
                 <SourceFileName>Sounds/476713__ddmyzik__happy-harp-sound.wav</SourceFileName>
+                <ScriptName>aHarp</ScriptName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5629,9 +5701,9 @@
                 <FileLastModifiedDate>2020-03-18 01:07:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>evillaugh</ScriptName>
                 <ID>5</ID>
                 <SourceFileName>Sounds/98382__the-baron__17-evil-laugh.wav</SourceFileName>
+                <ScriptName>evillaugh</ScriptName>
                 <Index>8</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5642,9 +5714,9 @@
                 <FileLastModifiedDate>2020-03-18 01:04:22Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>shuffle</ScriptName>
                 <ID>6</ID>
                 <SourceFileName>Sounds/201253__empraetorius__card-shuffle.wav</SourceFileName>
+                <ScriptName>shuffle</ScriptName>
                 <Index>10</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5655,9 +5727,9 @@
                 <FileLastModifiedDate>2020-03-18 01:04:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aBark</ScriptName>
                 <ID>7</ID>
                 <SourceFileName>Sounds/bark.ogg</SourceFileName>
+                <ScriptName>aBark</ScriptName>
                 <Index>12</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5668,9 +5740,9 @@
                 <FileLastModifiedDate>2020-03-22 23:58:03Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine1</ScriptName>
                 <ID>8</ID>
                 <SourceFileName>Sounds/whine1.ogg</SourceFileName>
+                <ScriptName>aWhine1</ScriptName>
                 <Index>13</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5681,9 +5753,9 @@
                 <FileLastModifiedDate>2020-03-22 23:45:49Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine2</ScriptName>
                 <ID>9</ID>
                 <SourceFileName>Sounds/whine2.ogg</SourceFileName>
+                <ScriptName>aWhine2</ScriptName>
                 <Index>14</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5694,9 +5766,9 @@
                 <FileLastModifiedDate>2020-03-22 23:46:12Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine3</ScriptName>
                 <ID>10</ID>
                 <SourceFileName>Sounds/whine3.ogg</SourceFileName>
+                <ScriptName>aWhine3</ScriptName>
                 <Index>15</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5707,9 +5779,9 @@
                 <FileLastModifiedDate>2020-03-22 23:47:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine4</ScriptName>
                 <ID>11</ID>
                 <SourceFileName>Sounds/whine4.ogg</SourceFileName>
+                <ScriptName>aWhine4</ScriptName>
                 <Index>16</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5720,9 +5792,9 @@
                 <FileLastModifiedDate>2020-03-22 23:47:33Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine5</ScriptName>
                 <ID>12</ID>
                 <SourceFileName>Sounds/whine5.ogg</SourceFileName>
+                <ScriptName>aWhine5</ScriptName>
                 <Index>17</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5733,9 +5805,9 @@
                 <FileLastModifiedDate>2020-03-22 23:48:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine7</ScriptName>
                 <ID>13</ID>
                 <SourceFileName>Sounds/whine7.ogg</SourceFileName>
+                <ScriptName>aWhine7</ScriptName>
                 <Index>19</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -5746,9 +5818,9 @@
                 <FileLastModifiedDate>2020-03-22 23:49:32Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWhine8</ScriptName>
                 <ID>14</ID>
                 <SourceFileName>Sounds/whine8.ogg</SourceFileName>
+                <ScriptName>aWhine8</ScriptName>
                 <Index>20</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
