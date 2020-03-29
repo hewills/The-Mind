@@ -3,7 +3,7 @@
 <AGSEditorUserData Version="3.0.2.1" VersionIndex="3" EditorVersion="3.5.0.23">
   <Component Name="SourceControl" />
   <WorkspaceState>
-    <LastBuildConfiguration>Debug</LastBuildConfiguration>
+    <LastBuildConfiguration>Release</LastBuildConfiguration>
     <LastBuildGameFileName xml:space="preserve">DataFile=The Mind,Windows=The Mind,_Debug=The Mind,</LastBuildGameFileName>
   </WorkspaceState>
 </AGSEditorUserData>
