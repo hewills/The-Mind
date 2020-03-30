@@ -4,6 +4,6 @@
   <Component Name="SourceControl" />
   <WorkspaceState>
     <LastBuildConfiguration>Release</LastBuildConfiguration>
-    <LastBuildGameFileName xml:space="preserve">DataFile=The Mind,Windows=The Mind,_Debug=The Mind,</LastBuildGameFileName>
+    <LastBuildGameFileName xml:space="preserve">DataFile=The Mind,Windows=The Mind,_Debug=The Mind,Linux=The Mind,</LastBuildGameFileName>
   </WorkspaceState>
 </AGSEditorUserData>
