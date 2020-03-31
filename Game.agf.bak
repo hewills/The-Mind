@@ -2390,7 +2390,7 @@
                 <PushedImage>2161</PushedImage>
                 <MouseoverImage>2161</MouseoverImage>
                 <Image>2160</Image>
-                <Text>Normal</Text>
+                <Text>Expert</Text>
                 <Height>20</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -2411,7 +2411,7 @@
               <Height>200</Height>
               <Width>300</Width>
               <Left>10</Left>
-              <Top>10</Top>
+              <Top>1</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
@@ -2554,7 +2554,7 @@
               <Height>200</Height>
               <Width>300</Width>
               <Left>10</Left>
-              <Top>10</Top>
+              <Top>1</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
@@ -2682,7 +2682,7 @@
               <Height>200</Height>
               <Width>300</Width>
               <Left>10</Left>
-              <Top>10</Top>
+              <Top>1</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
@@ -2810,7 +2810,7 @@
               <Height>200</Height>
               <Width>300</Width>
               <Left>10</Left>
-              <Top>10</Top>
+              <Top>1</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
@@ -2999,10 +2999,10 @@
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>1</Font>
-                <Text xml:space="preserve">You earn more hearts and coins, as you progress levels.[[Click the red arrow to play your card.</Text>
-                <Height>45</Height>
+                <Text xml:space="preserve">You earn more hearts and coins, as you progress levels.[[Click the yellow arrow to play your card.</Text>
+                <Height>48</Height>
                 <Locked>False</Locked>
-                <Width>216</Width>
+                <Width>222</Width>
                 <Left>6</Left>
                 <Top>119</Top>
                 <ZOrder>8</ZOrder>
@@ -3044,7 +3044,7 @@
               <Height>200</Height>
               <Width>300</Width>
               <Left>10</Left>
-              <Top>10</Top>
+              <Top>1</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
@@ -3196,7 +3196,7 @@
               <Height>200</Height>
               <Width>300</Width>
               <Left>10</Left>
-              <Top>10</Top>
+              <Top>1</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
@@ -5098,6 +5098,96 @@
               <Sprite Slot="49" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Images/Background/arrow.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="88" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow_Animation 1_0.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="89" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow_Animation 1_1.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="90" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow_Animation 1_2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="91" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow_Animation 1_3.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="92" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow_Animation 1_4.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>17</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="93" Width="20" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Images/Background/arrow_Animation 1_5.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>17</ImportHeight>
