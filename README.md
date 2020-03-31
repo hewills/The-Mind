@@ -12,3 +12,9 @@ This is a videogame version of the card game 'The Mind'. It is a cooperative gam
 In this version, you and your dog meet Death, after a stunt gone wrong. You are given the chance to play
 a game, to avoid the afterlife. However, you and your dog 'Elska' must play together.
 That game is... The Mind.
+
+![Title screen](/repo/title.png)
+
+![New Level screen](/repo/levelscreen.png)
+
+![Gameplay screen](/repo/gameplay.png)
